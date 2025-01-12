@@ -1,0 +1,7 @@
+#portfolio {
+    display: block;
+    width: 100%;
+    height: max-content;
+    position: absolute;
+    top: 30px;
+}

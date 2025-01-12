@@ -1,0 +1,23 @@
+#home {
+    display: block;
+    width: 100%;
+    height: max-content;
+    position: absolute;
+    top: 30px;
+}
+
+
+#intro {
+    position: absolute;
+    top: 10px;
+    left: 5%;
+    width: 45%;
+    font-family: 'Times New Roman';
+    font-style: normal;
+    font-size: 40px;
+    z-index: 5;
+}
+
+p {
+    line-height: 70px;
+}

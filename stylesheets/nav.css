@@ -1,0 +1,70 @@
+:root {
+    --dark-bronze: #403301;
+    --bronze: #DEB64B;
+    --dark-gold: #c2b067;
+}
+
+nav {
+    font-size: 60%;
+    position: absolute;
+    top: 0%;
+    height: 10%;
+    width: 100%;
+    display: flex;
+}
+
+.nav-btn {
+    text-align: center;
+    font-family: "Californian FB";
+}
+
+    .nav-btn:hover {
+        cursor: pointer;
+    }
+
+#logo {
+    position: absolute;
+    width: 13%;
+    left: 5%;
+}
+
+#clock {
+    position: absolute;
+    width: 25%;
+    left: 25%;
+    text-align: center;
+    font-family: "Californian FB";
+}
+
+#portfolio-btn {
+    position: absolute;
+    width: 7%;
+    right: 35%;
+}
+
+#github-btn {
+    position: absolute;
+    width: 7%;
+    right: 20%;
+}
+
+#contact-btn {
+    position: absolute;
+    width: 8%;
+    right: 5%;
+}
+
+.gradient-text {
+    background: radial-gradient(var(--bronze), var(--dark-gold) 50%, var(--dark-bronze) 85%);
+    background-size: 200% auto;
+    color: #000;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: animatedTextGradient 15s linear infinite;
+}
+
+@keyframes animatedTextGradient {
+    to {
+        background-position: 200% center;
+    }
+}
